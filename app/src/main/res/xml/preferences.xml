@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory app:title="General">
+        <ListPreference
+            app:key="unit_preference"
+            app:title="Weight Unit"
+            app:summary="%s"
+            app:entries="@array/unit_entries"
+            app:entryValues="@array/unit_values"
+            app:defaultValue="kg" />
+
+        <EditTextPreference
+            app:key="custom_presets"
+            app:title="Exercise Presets"
+            app:summary="Comma-separated list of exercises"
+            app:defaultValue="Bench Press, Squat, Deadlift, Overhead Press, Barbell Row, Pull-Up" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

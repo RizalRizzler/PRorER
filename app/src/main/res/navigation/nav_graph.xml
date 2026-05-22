@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/logFragment">
+
+    <fragment
+        android:id="@+id/logFragment"
+        android:name="com.example.prorer.ui.log.LogFragment"
+        android:label="Log"
+        tools:layout="@layout/fragment_log" />
+
+    <fragment
+        android:id="@+id/historyFragment"
+        android:name="com.example.prorer.ui.history.HistoryFragment"
+        android:label="History"
+        tools:layout="@layout/fragment_history">
+        <action
+            android:id="@+id/action_historyFragment_to_sessionDetailFragment"
+            app:destination="@id/sessionDetailFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/sessionDetailFragment"
+        android:name="com.example.prorer.ui.history.SessionDetailFragment"
+        android:label="Detail"
+        tools:layout="@layout/fragment_session_detail">
+        <argument
+            android:name="sessionId"
+            app:argType="long" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/progressFragment"
+        android:name="com.example.prorer.ui.progress.ProgressFragment"
+        android:label="Progress"
+        tools:layout="@layout/fragment_progress" />
+
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="com.example.prorer.ui.settings.SettingsFragment"
+        android:label="Settings" />
+
+</navigation>

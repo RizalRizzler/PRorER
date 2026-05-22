@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">PRorER</string>
+    <string name="add_exercise">Add Exercise</string>
+    <string name="active_workout">Active Workout</string>
+</resources>
