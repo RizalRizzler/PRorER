@@ -15,6 +15,8 @@
 
         <TextView
             android:id="@+id/tv_date"
+            android:text="@string/dummy"
+            android:textColor="@color/navyAnchor"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textStyle="bold"
@@ -24,6 +26,7 @@
 
         <TextView
             android:id="@+id/tv_volume"
+            android:text="@string/dummy"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textColor="#666666"
@@ -32,6 +35,7 @@
 
         <TextView
             android:id="@+id/tv_exercises_preview"
+            android:text="@string/dummy"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
