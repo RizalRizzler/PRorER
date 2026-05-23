@@ -47,8 +47,8 @@
                     android:layout_weight="1"
                     android:orientation="vertical">
                     <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Est. 1RM" />
-                    <TextView android:id="@+id/tv_1rm" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textSize="24sp" android:textStyle="bold" />
-                    <TextView android:id="@+id/tv_delta" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textColor="#009900" />
+                    <TextView android:id="@+id/tv_1rm" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textSize="24sp" android:textStyle="bold" android:textColor="@color/black" />
+                    <TextView android:id="@+id/tv_delta" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textColor="@color/greenIdentity" />
                 </LinearLayout>
 
                 <LinearLayout
@@ -57,7 +57,7 @@
                     android:layout_weight="1"
                     android:orientation="vertical">
                     <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Sessions (30 Days)" />
-                    <TextView android:id="@+id/tv_session_count" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textSize="24sp" android:textStyle="bold" />
+                    <TextView android:id="@+id/tv_session_count" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textSize="24sp" android:textStyle="bold" android:textColor="@color/black" />
                 </LinearLayout>
             </LinearLayout>
         </com.google.android.material.card.MaterialCardView>
