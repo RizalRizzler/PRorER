@@ -1,24 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto">
+    >
     <item
         android:id="@+id/logFragment"
         android:icon="@drawable/ic_contract_edit_24px"
         android:title="Log"
-        app:itemIconTint="@color/greenIdentity"
         />
 
     <item
         android:id="@+id/historyFragment"
         android:icon="@drawable/ic_history_24px"
         android:title="History"
-        app:itemIconTint="@color/greenIdentity"
         />
 
     <item
         android:id="@+id/progressFragment"
         android:icon="@drawable/bar_chart_4_bars_24px"
         android:title="Progress"
-        app:itemIconTint="@color/greenIdentity"
         />
 </menu>
